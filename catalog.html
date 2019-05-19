@@ -21,7 +21,33 @@
     <ul class="user-navigation">
       <li class="user-navigation-search"><a href="#">Поиск</a></li>
       <li class="user-navigation-login"><a href="#">Вход</a></li>
-      <li class="user-navigation-cart"><a href="#">2 товара</a></li>
+      <li class="user-navigation-cart">
+        <a href="#">2 товара</a>
+        <section class="modal modal-cart">
+          <h2 class="visualy-hidden">Корзина</h2>
+          <ul class="cart-list">
+            <li class="cart-list-item">
+              <p class="delete-item">x</p>
+              <img src="img/orange-jam.jpg" width="33" height="33" alt="Пломбир с апельсиновым джемом">
+              <span class="item-name">Пломбир с апельсиновым джемом</span>
+              <span class="price-for-weight">1,5кг x <span>200 руб.</span></span>
+              <span class="item-price">300 руб.</span>
+            </li>
+            <li class="cart-list-item">
+              <p class="delete-item">x</p>
+              <img src="img/strawberry-white-chocolate.jpg" width="33" height="33"
+                alt="Клубничный пломбир с присыпкой из белого шоколада">
+              <span class="item-name">Клубничный пломбир с присыпкой из белого шоколада</span>
+              <span class="price-for-weight">1,5кг x <span>300 руб.</span></span>
+              <span class="item-price">450 руб.</span>
+            </li>
+          </ul>
+          <p class="summary-container">
+            <b>Итого: 750 руб.</b>
+            <a class="button cart-button" href="#">Оформить заказ</a>
+          </p>
+        </section>
+      </li>
     </ul>
   </header>
   <main>
