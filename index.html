@@ -35,10 +35,8 @@
         <section class="modal modal-search">
           <h2 class="visualy-hidden">Форма поиска</h2>
           <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-            <label class="visualy-hidden">
-              <input class="search-input" type="text" placeholder="Что ищем?" name="search">
-              Поиск
-            </label>
+            <label class="visualy-hidden" for="search">Поиск</label>
+            <input class="search-input" type="search" id="search" placeholder="Что ищем?" name="search">
           </form>
         </section>
       </li>
@@ -47,20 +45,17 @@
         <section class="modal modal-login">
           <h2 class="visualy-hidden">Форма входа</h2>
           <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-            <label class="visualy-hidden">
-              <input class="email-input" type="email" placeholder="Электронная почта" name="email">
-              Электронная почта
-            </label>
-            <label class="visualy-hidden">
-              <input class="email-password" type="password" placeholder="Пароль" name="password">
-              Пароль
-            </label>
+            <label class="visualy-hidden" for="email-login">Электронная почта</label>
+            <input class="email-input" type="email" id="email-login" placeholder="Электронная почта" name="email">
+
+            <label class="visualy-hidden" for="password">Пароль</label>
+            <input class="email-password" type="password" id="password" placeholder="Пароль" name="password">
             <button class="button login-button" type="submit">Войти</button>
-            <p>
-              <a href="#">Забыли пароль?</a>
-              <a href="#">Новая регистрация</a>
-            </p>
           </form>
+          <p>
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Новая регистрация</a>
+          </p>
         </section>
       </li>
       <li class="user-navigation-cart"><a href="">Пусто</a></li>
@@ -94,10 +89,9 @@
       <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит.
         Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
       <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
-        <label class="visualy-hidden">
-          <input class="subscribe-input" type="email" placeholder="Электронная почта?" name="subscribe">
-          Электронная почта?
-        </label>
+        <label class="visualy-hidden" for="email-subscribe">Электронная почта?</label>
+        <input class="subscribe-input" type="email" id="email-subscribe" placeholder="Электронная почта?"
+          name="subscribe">
         <button class="button subscribe-button" type="submit">Отправить</button>
       </form>
     </section>
@@ -129,19 +123,16 @@
   <section class="modal modal-feedback">
     <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
       <h2>Мы обязательно вам ответим!</h2>
-      <p class="modal-feedback-close">x</p>
-      <label class="visualy-hidden">
-        <input class="user-name-input" type="text" placeholder="Как вас зовут?" name="user-name">
-        Как вас зовут?
-      </label>
-      <label class="visualy-hidden">
-        <input class="email-input" type="email" placeholder="Ваша почта для ответа?" name="email">
-        Ваша почта для ответа?
-      </label>
-      <label class="visualy-hidden">
-        <textarea class="feedback-input" placeholder="Напишите что-нибудь..." name="feedback"></textarea>
-        Напишите что-нибудь...
-      </label>
+      <button class="modal-feedback-close">x</button>
+      <label class="visualy-hidden" for="user-name">Как вас зовут?</label>
+      <input class="user-name-input" type="text" id="user-name" placeholder="Как вас зовут?" name="user-name">
+
+      <label class="visualy-hidden" for="email-feedback">Ваша почта для ответа?</label>
+      <input class="email-input" type="email" id="email-feedback" placeholder="Ваша почта для ответа?" name="email">
+
+      <label class="visualy-hidden" for="feedback">Напишите что-нибудь...</label>
+      <textarea class="feedback-input" id="feedback" placeholder="Напишите что-нибудь..." name="feedback"></textarea>
+
       <button class="button feedback-button" type="submit">Отправить</button>
     </form>
   </section>
