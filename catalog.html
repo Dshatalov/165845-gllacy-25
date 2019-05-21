@@ -4,9 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Глейси</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="catalog-page">
   <header class="main-header">
     <a href="index.html" class="main-header-logo">
       <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина мороженного «Глейси»">
@@ -14,7 +17,7 @@
     <nav class="main-navigation">
       <ul class="site-navigation">
         <li>
-          <a href="catalog.html">Каталог</a>
+          <a class="active" href="catalog.html">Каталог</a>
           <ul class="sub-navigation">
             <li>
               <a href="#"><b>Новинки</b></a>
@@ -67,7 +70,7 @@
           <h2 class="visualy-hidden">Корзина</h2>
           <ul class="cart-list">
             <li class="cart-list-item">
-              <button class="delete-item">x</button>
+              <button class="delete-item" type="button">x</button>
               <a class="cart-list-item-link" href="#">
                 <img src="img/orange-jam.jpg" width="33" height="33" alt="Пломбир с апельсиновым джемом">
                 <span class="item-name">Пломбир с апельсиновым джемом</span>
@@ -98,11 +101,11 @@
       <ul class="breadcrumbs-list">
         <li class="breadcrumbs-item"><a href="index.html">Главная</a></li>
         <li class="breadcrumbs-item"><a href="#">Каталог</a></li>
-        <li class="breadcrumbs-item"><a href="#">Сливочное</a></li>
+        <li class="breadcrumbs-item"><a class="active" href="#">Сливочное</a></li>
       </ul>
       <p>
-        С 10 до 20, ежедневно
-        8 812 450-25-25
+        <span>С 10 до 20, ежедневно</span>
+        <span>8 812 450-25-25</span>
       </p>
     </div>
     <h1>Сливочное мороженное</h1>

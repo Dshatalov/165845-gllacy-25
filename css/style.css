@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #ffbc9e;
+  text-decoration: underline;
+}
+
+.button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+  background-image: linear-gradient(to top, #e74a35, #f26843);
+  border: none;
+}
+
+.site-navigation,
+.user-navigation,
+.sub-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+
+.site-navigation a {
+  text-decoration: underline;
+}
+
+.sub-navigation a {
+  text-decoration: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #323232;
+  background-color: #f7f6f3;
+  text-decoration: none;
+}
+.site-navigation .active {
+  background-color: #d07058;
+  text-decoration: none;
+}
+.site-navigation {
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.user-navigation {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.features {
+  color: #323232;
+  background-color: #ecdfc5;
+  background-image: url("../img/waffle-bg.jpg");
+}
+
+.features .description {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-item {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.blog {
+  color: #323232;
+  background-image: url("../img/strawberry-bg.jpg");
+}
+
+.blog a {
+  color: #323232;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.blog a:hover {
+  color: #e84d37;
+}
+
+.subscribe-wrapper {
+  background-image: url("../img/bg-post.svg");
+  /* Паддинги мы пока не знаем */
+}
+
+.subscribe {
+  color: #323232;
+  background-color: #ffffff;
+}
+
+.subscribe p {
+  font-weight: 400;
+}
+
+.subscribe input {
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.main-footer ul {
+  list-style: none;
+}
+
+.social-button {
+  opacity: 0.5;
+  background-color: #ffffff;
+}
+
+.social-button:hover {
+  opacity: 0.7;
+  background-color: #ffffff;
+}
+
+.footer-about-item {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/* Catalog.html */
+
+.catalog-page h1 {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+}
+
+.breadcrumbs p {
+  font-weight: 700;
+}
+
+.breadcrumbs span:first-child {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.breadcrumbs span:last-child {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.breadcrumbs-list {
+  list-style: none;
+}
+
+.breadcrumbs-item {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.breadcrumbs-item a{
+  text-decoration: underline;
+}
+
+.breadcrumbs-item .active{
+  text-decoration: none;
+}
+
+.assortment-list {
+  list-style: none;
+}
+
+.assortment-item a{
+  text-decoration: underline;
+}
