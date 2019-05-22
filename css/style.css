@@ -15,9 +15,9 @@ a {
   text-decoration: none;
 }
 
-a:hover,
-a:focus,
-a:active {
+.common-link:hover,
+.common-link:focus,
+.common-link:active {
   color: #ffbc9e;
   text-decoration: underline;
 }
@@ -32,6 +32,18 @@ a:active {
   box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
   background-image: linear-gradient(to top, #e74a35, #f26843);
   border: none;
+}
+
+.button:hover {
+  box-shadow: 0px 2px 2px 0 #ac1000;
+  background-image: linear-gradient(to top, #e74a35, #f26843),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+}
+
+.button:active {
+  box-shadow: inset 0px 2px 2px 0 #942718;
+  background-image: linear-gradient(to bottom, #e74a35, #f26843),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));
 }
 
 .site-navigation,
@@ -76,6 +88,16 @@ a:active {
   font-weight: 500;
 }
 
+.working-time span:first-child {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.working-time span:last-child {
+  font-size: 22px;
+  line-height: 24px;
+}
+
 .features {
   color: #323232;
   background-color: #ecdfc5;
@@ -85,6 +107,7 @@ a:active {
 .features .description {
   font-size: 24px;
   line-height: 30px;
+  font-weight: 500;
 }
 
 .features-list {
@@ -170,16 +193,6 @@ a:active {
   font-weight: 700;
 }
 
-.breadcrumbs span:first-child {
-  font-size: 14px;
-  line-height: 16px;
-}
-
-.breadcrumbs span:last-child {
-  font-size: 22px;
-  line-height: 24px;
-}
-
 .breadcrumbs-list {
   list-style: none;
 }
@@ -190,11 +203,11 @@ a:active {
   font-weight: 400;
 }
 
-.breadcrumbs-item a{
+.breadcrumbs-item a {
   text-decoration: underline;
 }
 
-.breadcrumbs-item .active{
+.breadcrumbs-item .active {
   text-decoration: none;
 }
 
@@ -202,6 +215,12 @@ a:active {
   list-style: none;
 }
 
-.assortment-item a{
+.assortment-item span {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.assortment-item a {
   text-decoration: underline;
 }
