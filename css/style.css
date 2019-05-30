@@ -69,12 +69,12 @@ a {
   overflow: hidden;
 }
 
-.main-header {
-  width: 1200px;
-  margin: 0 auto;
-}
 
-.main-header-container {
+.main-header .container {
+  width: 1200px;
+  padding-left: 27px;
+  padding-right: 27px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -83,7 +83,6 @@ a {
 .main-header-logo {
   width: 154px;
   margin-top: 9px;
-  margin-left: 27px;
 }
 
 .main-navigation {
@@ -103,7 +102,7 @@ a {
   padding: 0;
   margin-top: 9px;
   margin-left: 374px;
-  margin-right: 27px;
+
 }
 
 .working-time {
@@ -165,12 +164,13 @@ a {
 }
 
 .features-wrapper {
-  width: 1146px;
+  width: 1200px;
   margin: 0 auto;
-  margin-bottom: 40px;
 }
 
 .features {
+  margin-left: 27px;
+  margin-right: 27px;
   color: #323232;
   background-color: #ecdfc5;
   background-image: url("../img/waffle-bg.jpg");
@@ -193,13 +193,12 @@ a {
   font-weight: 400;
 }
 
-.blog-subscribe-wrapper {
-  width: 1146px;
+.blog-subscribe-wrapper .container {
+  width: 1200px;
+  padding-left: 27px;
+  padding-right: 27px;
   margin: 0 auto;
   margin-bottom: 40px;
-}
-
-.blog-subscribe-wrapper .container {
   display: flex;
   justify-content: space-between;
 }
@@ -249,12 +248,15 @@ a {
   font-weight: 400;
 }
 
-.main-footer {
-  width: 1146px;
-  margin: 0 auto;
-}
 
 .main-footer .container {
+  width: 1200px;
+  padding-left: 27px;
+  padding-right: 27px;
+  margin: 0 auto;width: 1200px;
+  padding-left: 27px;
+  padding-right: 27px;
+  margin: 0 auto;
   display: flex;
 }
 
@@ -309,14 +311,20 @@ a {
   font-weight: 700;
 }
 
-.breadcrumbs {
-  width: 1146px;
+.breadcrumbs-header-wrapper {
+  width: 1200px;
   margin: 0 auto;
 }
 
-.header-wrapper {
-  width: 1146px;
-  margin: 0 auto;
+.breadcrumbs-header-wrapper h1 {
+  display: block;
+  margin-left: 27px;
+  margin-right: 27px
+}
+
+.breadcrumbs {
+  margin-left: 27px;
+  margin-right: 27px;
 }
 
 .breadcrumbs p {
@@ -343,8 +351,10 @@ a {
   text-decoration: none;
 }
 
-.assortment {
-  width: 1146px;
+.assortment .container {
+  width: 1200px;
+  padding-left: 27px;
+  padding-right: 27px;
   margin: 0 auto;
   margin-bottom: 104px;
 }
